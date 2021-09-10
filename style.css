@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1px;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:hover{
+    color: 3f3f3f
+}
+a{
+    text-decoration: none;
+    color: #7c7c7c;
+}
+p{
+    color: #7c7c7c;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin: 25px 0; 
+}
+.btn{
+    display: inline-block;
+    background: blue;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6); 
+    box-sizing: border-box
+}
+.fas fa-star{
+    color: yellow
+}
+.far fa-star{
+    color: yellow
+}
+.contact{
+    width: 500px
+}
+input,textarea{
+    width: 100%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border-radius: 10px;
+}
+footer{
+    background: #353535
+}
+
+
+
+
+
+
+
+
